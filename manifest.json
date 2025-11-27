@@ -1,0 +1,17 @@
+{
+  "domain": "vicare",
+  "name": "Viessmann ViCare Advanced",
+  "version": "1.0.0",
+  "codeowners": ["@CFenner"],
+  "config_flow": true,
+  "dhcp": [
+    {
+      "macaddress": "B87424*"
+    }
+  ],
+  "documentation": "https://www.home-assistant.io/integrations/vicare",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "loggers": ["PyViCare"],
+  "requirements": ["PyViCare==2.55.0"]
+}
